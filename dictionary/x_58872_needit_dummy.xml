@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="dummy" max_length="40" name="x_58872_needit_dummy" sizeclass="0" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Category 1" value="1"/>
+                <element inactive_on_update="false" label="category 2" value="2"/>
+                <element inactive_on_update="false" label="Category 3" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>
